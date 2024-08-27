@@ -1,4 +1,4 @@
-# AMAZON STOCK PRICE PREDICTION
+# Tüme Series Forecast API for Amazon Stock Prices
 
 This repository includes models that predict Amazon's stock prices using machine learning techniques and Docker integration with the REST API built with the best model.
 
@@ -32,7 +32,7 @@ The dataset to be given as input to the LSTM-CNN-Raw Data model must contain the
 
 ### Installation to run notebook
 
-* Check that you are in the `AMAZON_STOCK_PRICE_PREDICTION` directory.
+* Check that you are in the `TimeSeriesForecastAPI` directory.
 1. Clone the repository: `git clone https://github.com/ogulcanakca/TimeSeriesForecastAPI.git` 
 2. Create a Python virtual environment: `python -m venv .venv` 
 3. Activate the created python virtual environment: `.venv\Scripts\activate`
@@ -53,14 +53,14 @@ or
 
 ### Installation and running the app with Docker Compose
 
-* Check that you are in the `AMAZON_STOCK_PRICE_PREDICTION` directory.
+* Check that you are in the `TimeSeriesForecastAPI` directory.
 1. Clone the repository: `git clone https://github.com/ogulcanakca/TimeSeriesForecastAPI.git`
 2. Create the image: `docker build --no-cache -t ogulcanakca/stock-prediction-app:latest .`
 3. Create the container: `docker-compose up`
 
 ### Installation and running the app without Docker
 
-* Check that you are in the `AMAZON_STOCK_PRICE_PREDICTION` directory.
+* Check that you are in the `TimeSeriesForecastAPI` directory.
 1. Clone the repository: `git clone https://github.com/ogulcanakca/TimeSeriesForecastAPI.git`
 2. Create a Python virtual environment: `python -m venv .venv` 
 3. Activate the created python virtual environment: `.venv\Scripts\activate`
