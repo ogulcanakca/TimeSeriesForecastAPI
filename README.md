@@ -1,4 +1,4 @@
-# Tüme Series Forecast API for Amazon Stock Prices
+# Time Series Forecast API for Amazon Stock Prices
 
 This repository includes models that predict Amazon's stock prices using machine learning techniques and Docker integration with the REST API built with the best model.
 
