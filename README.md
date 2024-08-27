@@ -33,7 +33,7 @@ The dataset to be given as input to the LSTM-CNN-Raw Data model must contain the
 ### Installation to run notebook
 
 * Check that you are in the `AMAZON_STOCK_PRICE_PREDICTION` directory.
-1. Clone the repository: `git clone https://github.com/your-username/AMAZON_STOCK_PRICE_PREDICTION.git`
+1. Clone the repository: `git clone https://github.com/ogulcanakca/TimeSeriesForecastAPI.git` 
 2. Create a Python virtual environment: `python -m venv .venv` 
 3. Activate the created python virtual environment: `.venv\Scripts\activate`
 4. Install the require dependecies for notebook: `pip install -r ./requirements/requirements_notebook.txt`
@@ -46,7 +46,7 @@ The dataset to be given as input to the LSTM-CNN-Raw Data model must contain the
 
 or
 
-1. Clone the repository: `git clone https://github.com/your-username/AMAZON_STOCK_PRICE_PREDICTION.git`
+1. Clone the repository: `git clone https://github.com/ogulcanakca/TimeSeriesForecastAPI.git`
 2. Create the image: `docker build --no-cache -t ogulcanakca/stock-prediction-app:latest .`
 3. Create the container: `docker run -it --name stock-prediction-app-container -p 8000:8000 --entrypoint /bin/bash ogulcanakca/stock-prediction-app:latest`
 4. Start the application: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
@@ -54,14 +54,14 @@ or
 ### Installation and running the app with Docker Compose
 
 * Check that you are in the `AMAZON_STOCK_PRICE_PREDICTION` directory.
-1. Clone the repository: `git clone https://github.com/your-username/AMAZON_STOCK_PRICE_PREDICTION.git`
+1. Clone the repository: `git clone https://github.com/ogulcanakca/TimeSeriesForecastAPI.git`
 2. Create the image: `docker build --no-cache -t ogulcanakca/stock-prediction-app:latest .`
 3. Create the container: `docker-compose up`
 
 ### Installation and running the app without Docker
 
 * Check that you are in the `AMAZON_STOCK_PRICE_PREDICTION` directory.
-1. Clone the repository: `git clone https://github.com/your-username/AMAZON_STOCK_PRICE_PREDICTION.git`
+1. Clone the repository: `git clone https://github.com/ogulcanakca/TimeSeriesForecastAPI.git`
 2. Create a Python virtual environment: `python -m venv .venv` 
 3. Activate the created python virtual environment: `.venv\Scripts\activate`
 4. Install the require dependecies for app: `pip install -r ./requirements/requirements_app.txt`
@@ -105,4 +105,4 @@ Contributions are welcome! If you have any suggestions or improvements, please o
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the CC0-1.0 License. See the [LICENSE](LICENSE) file for more details.
