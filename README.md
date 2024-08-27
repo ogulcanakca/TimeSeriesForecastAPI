@@ -74,7 +74,7 @@ or
   * Provided that it is in .csv format.
   * Provided that there are at least 60 lines. **(Since a 60-day window is applied to the data on which the model is trained)**
   * Must include the columns in Table 1.
-  * As needed, 3 .csv data set samples in the `AMAZON_STOCK_PRICE_PREDICTION/data` folder were created with the ChatGPT 4o model. If available, if an HTTP POST request can be sent to the API so that the model can predict with the available dataset or the created dataset, it is expected to return a response like the following after processing the data sent to the API.
+  * As needed, 3 .csv data set samples in the `TimeSeriesForecastAPI/data` folder were created with the ChatGPT 4o model. If available, if an HTTP POST request can be sent to the API so that the model can predict with the available dataset or the created dataset, it is expected to return a response like the following after processing the data sent to the API.
 
 ```json
 {
