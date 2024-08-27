@@ -1,0 +1,9 @@
+numpy==1.26.4
+pandas==2.2.2
+tensorflow==2.17.0
+fastapi==0.112.1
+pydantic==2.8.2
+uvicorn==0.30.6
+python-multipart== 0.0.9
+joblib== 1.4.2
+scikit-learn==1.5.1

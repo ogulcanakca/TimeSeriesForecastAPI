@@ -1,0 +1,10 @@
+services:
+  app:
+    image: ogulcanakca/stock-prediction-app
+    container_name: stock-prediction-app-container-compose
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - ENV_VAR=value
